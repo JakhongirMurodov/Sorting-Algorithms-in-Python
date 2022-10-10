@@ -18,7 +18,7 @@ def buble_sort(array):
         swapped = False
         
         # loop to compare array elements
-        for j in range(len(array) - 1):
+        for j in range(len(array) - i -1):
             x = array[j]
             y = array[j+1]
             
