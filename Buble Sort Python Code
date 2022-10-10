@@ -1,0 +1,40 @@
+bubble_sort(array)
+  swapped <- false
+  for i <- 1 to indexOfLastUnsortedElement-1
+    if leftElement > rightElement
+      swap leftElement and rightElement
+      swapped <- true
+end bubble_sort
+
+
+
+# Bubble Sort Code in Python
+def buble_sort(array):
+
+    # loop to access each array element
+    for i in range(len(array)):
+        
+        # keep track of swapping
+        swapped = False
+        
+        # loop to compare array elements
+        for j in range(len(array) - 1):
+            x = array[j]
+            y = array[j+1]
+            
+            # compare two adjacent elements change > to < to sort in descending order
+            if x > y:
+            
+                # swapping elements if elements are not in the intended order
+                array[j] = y 
+                array[j+1] = x
+                
+                swapped = True
+                
+        # no swapping means the array is already sorted, so no need for further comparison     
+        if not swapped:
+          break
+
+data = [-5, 25, 0, 13, -8]
+buble_sort(data)
+print('Sorted Array in Ascending Order:', data)
