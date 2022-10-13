@@ -48,4 +48,3 @@ Suppose we need to sort the following array.
     2. Now, the first two elements are sorted. Take the third element and compare it with the elements on the left of it. Placed it just behind the element smaller           than it. If there is no element smaller than it, then place it at the beginning of the array.
     3. Similarly, place every unsorted element at its correct position.
 
-
