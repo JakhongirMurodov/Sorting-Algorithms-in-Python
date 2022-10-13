@@ -43,8 +43,7 @@ A similar approach is used by insertion sort.
 
 Suppose we need to sort the following array.
             [9, 5, 1, 4, 3]
-    1. The first element in the array is assumed to be sorted. Take the second element and store it separately in key.
-        Compare key with the first element. If the first element is greater than key, then key is placed in front of the first element.
-    2. Now, the first two elements are sorted. Take the third element and compare it with the elements on the left of it. Placed it just behind the element smaller           than it. If there is no element smaller than it, then place it at the beginning of the array.
-    3. Similarly, place every unsorted element at its correct position.
+1. The first element in the array is assumed to be sorted. Take the second element and store it separately in key. Compare key with the first element. If the first element is greater than key, then key is placed in front of the first element.
+2. Now, the first two elements are sorted. Take the third element and compare it with the elements on the left of it. Placed it just behind the element smaller than it. If there is no element smaller than it, then place it at the beginning of the array.
+3. Similarly, place every unsorted element at its correct position.
 
